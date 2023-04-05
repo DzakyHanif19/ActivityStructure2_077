@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "struct", "struct\struct.vcxproj", "{6C3095A8-25C3-4AB3-9513-46893706292E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "struct2", "struct2\struct2.vcxproj", "{317F0BB0-4767-493D-AA54-E3742911484E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6C3095A8-25C3-4AB3-9513-46893706292E}.Release|x64.Build.0 = Release|x64
 		{6C3095A8-25C3-4AB3-9513-46893706292E}.Release|x86.ActiveCfg = Release|Win32
 		{6C3095A8-25C3-4AB3-9513-46893706292E}.Release|x86.Build.0 = Release|Win32
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Debug|x64.ActiveCfg = Debug|x64
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Debug|x64.Build.0 = Debug|x64
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Debug|x86.ActiveCfg = Debug|Win32
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Debug|x86.Build.0 = Debug|Win32
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Release|x64.ActiveCfg = Release|x64
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Release|x64.Build.0 = Release|x64
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Release|x86.ActiveCfg = Release|Win32
+		{317F0BB0-4767-493D-AA54-E3742911484E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
