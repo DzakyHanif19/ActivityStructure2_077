@@ -11,30 +11,31 @@ struct Mahasiswa {
 
 int main()
 {
-	Mahasiswa mhs1, mhs2;
+	Mahasiswa mhs, mhs2;
 
-	mhs1.nim = "20210140077";
-	mhs1.nama = "Dzaky";
-	mhs1.alamat = "Bekasi";
-	mhs1.umur = 19;
+	mhs.nim = "20210140077";
+	mhs.umur = 19;
+	mhs.nama = "Dzaky";
+	mhs.alamat = "Bekasi";
+
 
 	cout << "Masukkan nim: ";
 	cin >> mhs2.nim;
+	cout << "Masukkan umur: ";
+	cin >> mhs2.umur;
 	cout << "Masukkan nama: ";
 	cin >> mhs2.nama;
 	cout << "Masukkan alamat: ";
 	cin >> mhs2.alamat;
-	cout << "Masukkan umur: ";
-	cin >> mhs2.umur;
 
-	cout << "\nNim : " << mhs1.nim;
-	cout << "\nnama : " << mhs1.nama;
-	cout << "\nalamat : " << mhs1.alamat;
-	cout << "\numur : " << mhs1.umur;
-
+	cout << "\nNim : " << mhs.nim;
+	cout << "\numur : " << mhs.umur;
+	cout << "\nnama : " << mhs.nama;
+	cout << "\nalamat : " << mhs.alamat;
+	
 	cout << "\nNim : " << mhs2.nim;
+	cout << "\numur : " << mhs2.umur;
 	cout << "\nnama : " << mhs2.nama;
 	cout << "\nalamat : " << mhs2.alamat;
-	cout << "\numur : " << mhs2.umur;
 
 }
